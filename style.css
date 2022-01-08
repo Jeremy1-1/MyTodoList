@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #badbf8;
+    font-family: 'Outfit', sans-serif;
+    color: #3781bd;
+}
+
+form div {
+    display: flex;
+    margin-left: 530px;
+    border-radius: 10px;
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+    margin-bottom: 80px;
+    font-size: 40px;
+    text-decoration:2px underline blue;
+}
+
+form input{
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background: lightslategray;
+    color: linen;
+}
+
+form button{
+    display: block;
+    outline: blue;
+    line-height: 1;
+    border:0;
+    margin-left: -25px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 8px;
+    padding-right: 9px;
+    cursor: pointer;
+    background: #8a96da;
+}
+
+.fas{
+    color: white;
+}
+
+form input:focus{
+    border: none;
+    outline: none;
+    background: #133f63;
+    transition: all 1s linear;
+}
+
+::placeholder{
+    color: #f8f8f2;
+}
+
+#headv2{
+    margin: 30px 2px 2px 100px;
+    text-decoration:2px underline blue;
+}
+
+.todo-container{
+    display: flex;
+    margin: 30px 2px 2px 100px;
+}
+
+.todo-item{
+    list-style: upper-alpha;
+    font-size: 30px;
+    text-decoration: 1px blue underline;
+    padding-right: 1rem;
+}
+
+.check-btn{
+   border-color: #ffffff;
+   outline-color: #ffffff;
+   margin: 0 5px 0 5px ;
+   padding: 10px;
+   font-size: 10px;
+   cursor: pointer;
+}
+
+.todo-container .fas{
+    color: green;
+}
+
+.todo-container .far{
+    color: red;
+}
+
+.trash-btn{
+    border-color: #ffffff;
+    outline-color: #ffffff;
+    margin: 0 5px 0 5px ;
+    padding: 10px;
+    font-size: 10px;
+    cursor: pointer;
+ }
+
+.check-btn:hover, .trash-btn:hover{
+    background: #3cc3db;
+    outline: none;
+    border: none;
+    transition: 3s;
+} 
